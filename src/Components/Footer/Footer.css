@@ -1,0 +1,106 @@
+.Footer{
+    background: black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 1000px;
+    margin: 50px;
+}
+
+.footer-container-top,.footer-container-mid,.footer-container-bottom{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-container,.email-container,.social-container{
+    width: fit-content;
+    height: 100%;
+
+}
+
+.logo-container{
+    cursor: pointer;
+}
+
+.email-container{
+    flex-grow: 3;
+    display: flex;
+    justify-content: center
+}
+
+.email-container>input{
+        background-color: #343434;
+        padding: 20px;
+        width: 300px;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        color: white;
+}
+.email-container>button{
+        background-color: #7b9e8e;
+        padding:15px 30px;
+        border: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        cursor: pointer;
+        
+}
+
+.social-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.social-container>p{
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.social-icon-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon-group>img{
+    cursor: pointer;
+}
+
+
+
+.footer-container-mid{
+    padding: 0 30px;
+    padding: 20px;
+    width:100%;
+    justify-content: center;
+    
+}
+.footer-container-mid>ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-container-mid>ul>li{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer-container-bottom>p{
+width: 100%;
+text-align: center;
+}

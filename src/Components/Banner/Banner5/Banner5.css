@@ -1,0 +1,49 @@
+.Banner5{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+
+}
+
+.bg-img,.bg-content{
+    grid-area: 1/1/-1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content{
+    width: 1100px ;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0,0.1);
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content>img{
+    width: 100px;
+}
+.inner-content>p{
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.Banner5-socail-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.social-icon1,.social-icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

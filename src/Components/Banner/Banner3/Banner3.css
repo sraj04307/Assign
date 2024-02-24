@@ -1,0 +1,56 @@
+.Banner3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+
+.Banner3-bg,.Banner3-content{
+    grid-area: 1/1/-1/-1;
+    width: 100%;
+}
+
+.Banner3-bg>img{
+    width: 100%;
+}
+
+.Banner3-content{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner3-card{
+    gap: 20px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.banner3-card>img{
+    width: 300px;
+}
+.banner3-card>h2,.banner3-card>p{
+    margin: 0;
+    padding: 0;
+}
+.banner3-card>span{
+    padding: 20px;
+    padding-top: 0;
+}
+
+.banner3-card>button{
+    border: none;
+    background: white;
+    transform: scale(3) translateY(5px);
+    border-radius: 50%;
+    
+}

@@ -1,0 +1,84 @@
+.Navbar{
+    width: 99%;
+    height: fit-content;
+    
+}
+
+
+.Navbar-top{
+    background: #7b9e8e;
+    display: flex;
+    width:inherit;
+    height: fit-content;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.Navbar-top-left{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Navbar-top-left>span{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.Navbar-top-right{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.Navbar-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:inherit;
+    height: fit-content;
+}
+
+.Navbar-bottom-left,.Navbar-bottom-right{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.Navbar-bottom-left>li,.Navbar-bottom-right>li{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.Navbar-bottom-mid{
+    transform: scale(1);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background:rgb(255, 255, 255);
+    box-shadow:darkred;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar-bottom-mid>img{
+    animation: logo-anim 1s ease-in-out 0s infinite alternate-reverse ;
+}
+
+@keyframes logo-anim {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}

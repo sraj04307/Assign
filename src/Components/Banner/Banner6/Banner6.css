@@ -1,0 +1,61 @@
+.Banner6{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner6-left{
+    width: 100%;
+    background: #7b9e8e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+}
+.Banner6-right{
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Banner6-right-element{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Banner6-right-element>p{
+border: 2px solid black;
+width: fit-content;
+display: flex;
+justify-content: center;
+gap: 10px;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 5px;
+}
+.Banner6-right-element>p>img{
+transform: translateX(25px);
+background: white;
+width: 20px;
+
+}
+
+.Banner6-right-element>div{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0,0.1);
+}
+.Banner6-right-element>div>input{
+    border: none;
+    width: 300px;
+}
